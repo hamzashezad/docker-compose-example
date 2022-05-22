@@ -1,0 +1,9 @@
+services:
+  node:
+    build:
+      context: ./app
+  nginx:
+    build:
+      context: ./server
+    ports:
+      - "8080:80"
