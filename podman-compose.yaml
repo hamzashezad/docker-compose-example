@@ -1,7 +1,7 @@
 services:
   node:
     build:
-      context: ./app
+      context: ./docker-remote-example
   nginx:
     build:
       context: ./server

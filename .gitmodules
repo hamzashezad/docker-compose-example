@@ -1,0 +1,3 @@
+[submodule "docker-remote-example"]
+	path = docker-remote-example
+	url = git@github.com:hamzashezad/docker-remote-example.git
